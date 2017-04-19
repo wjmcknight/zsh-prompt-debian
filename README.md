@@ -1,5 +1,7 @@
+# Debian Zsh Prompt
+
 The Debian (original Bash or Dash) prompt for Zsh.
 
-Installation:
+### Installation:
 - Copy prompt_debian_setup to /usr/share/zsh/functions/Prompts
 - Call prompt in your ~/.zshrc with 'prompt debian'
