@@ -9,7 +9,6 @@ The Debian (original Bash or Dash) prompt for Zsh.
 ### Config note:
 
 Depending on your installed version of Zsh, you may need to enable color 
-support in your ~/.zshrc config. You can do that by adding this:
-
+support in your ~/.zshrc config which you can do by adding this:
     autoload -U colors
     colors
