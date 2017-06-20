@@ -1,5 +1,5 @@
 prompt_debian_setup () {
-  PS1="%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$ "
+  PS1="%n@%m:%~$ "
   PS2="$ "
 
   prompt_opts=( cr percent )
