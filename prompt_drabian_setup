@@ -1,0 +1,8 @@
+prompt_drabian_setup () {
+  PS1="%n@%m:%~$ "
+  PS2="$ "
+
+  prompt_opts=( cr percent )
+}
+
+prompt_drabian_setup "$@"
