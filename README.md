@@ -19,7 +19,7 @@ to where.
 Depending on your installed version of Zsh, you may need to enable color 
 support in your ~/.zshrc config which you can do by adding this:
 
-```console
+```bash
 autoload -U colors
 colors
 ```
