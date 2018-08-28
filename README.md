@@ -14,8 +14,56 @@ of a punch of colour keeps me a little more aware of what I'm typing and where.
 
 ## Installation
 
-- Copy file(s) beginning with `prompt` to `/usr/share/zsh/functions/Prompts`
-- Call prompt in your `~/.zshrc` with: `prompt debian` or `prompt drabian`
+### System wide
+
+```console
+git clone https://github.com/wjmcknight/zsh-prompt-debian.git
+sudo cp zsh-prompt-debian/prompt_* /usr/share/zsh/functions/Prompts
+```
+
+### Per user
+
+```console
+git clone https://github.com/wjmcknight/zsh-prompt-debian.git
+mkdir ~/.zprompts
+cp zsh-prompt-debian/prompt_* ~/.zprompts
+```
+
+## Configuration
+
+### System wide
+
+Simply add the following to `~/.zshrc`:
+
+```bash
+prompt debian
+```
+
+or:
+
+```bash
+prompt drabian
+```
+
+### Per user
+
+First, you'll want to add this at or near the top of your `~/.zshrc`:
+
+```bash
+fpath=( "$HOME/.zprompts" $fpath )
+```
+
+Next, call the prompt with:
+
+```bash
+prompt debian
+```
+
+or:
+
+```bash
+prompt drabian
+```
 
 ## Config note
 
